@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css2?family=Bevan);
+@import url(https://fonts.googleapis.com/css2?family=Calistoga);
+
+h1 {
+    font-family: Bevan, 'Courier New', Courier, monospace;
+    font-size: 4em;
+    color: #1b211f;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+
+body, .button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content-width {
+    max-width: 70ch;
+    width: calc(100% - 4rem);
+    margin: 2rem auto;
+  }
+  
+
+.food-porn {
+    max-height: 50vh;
+    height: auto;
+    width: 100%;
+}
