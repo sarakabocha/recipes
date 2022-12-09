@@ -4,16 +4,30 @@
 h1 {
     font-family: Bevan, 'Courier New', Courier, monospace;
     font-size: 4em;
-    color: #1b211f;
+    color: #46463e;
 }
 
 h2 {
+    color: #46463e;
     font-size: 1.5em;
+    font-weight: 500;
 }
 
+h3 {
+    color: #cd4611;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 500;
+}
 
 body, .button {
     font-family: 'Courier New', Courier, monospace;
+    color: #3c3931;
+}
+
+a {
+    color: #cd4611;
 }
 
 .content-width {
@@ -27,4 +41,8 @@ body, .button {
     max-height: 50vh;
     width: 100%;
     object-fit: cover;
+}
+
+.highlight {
+    background-color: rgb(185, 207, 166, .4);
 }
